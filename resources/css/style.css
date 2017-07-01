@@ -1,0 +1,292 @@
+/* -------------------------------------*/
+/* BASIC SET UP */
+/* -------------------------------------*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    color:#555353;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering:optimizeLegibility;
+}
+/* -------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* -------------------------------------*/
+/* -------------------------------------*/
+/* HEADINGS */
+/* -------------------------------------*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0px;
+}
+/* -------------------------------------*/
+/* HEADER*/
+/* -------------------------------------*/
+header{
+    background-image:linear-gradient(rgba(103, 139, 122, 0.79), rgba(103, 139, 122, 0.79)), url(img/background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.hero-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+        
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+
+}
+.main-nav{
+    float: right;
+    list-style: none; 
+    margin-top: 55px;
+
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px; 
+
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%; 
+     border-bottom: 2px solid transparent;
+    t./ransition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #175781;
+}
+/* -------------------------------------*/
+/* HEADINGS */
+/* -------------------------------------*/
+h1,h2,{
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h1{
+     margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 200%;
+    color: #fff;  
+    word-spacing: 4px;
+}
+h2{
+    font-size:180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    font-size:180%;
+    font-weight: 300;
+    word-spacing: 1.5px;
+    margin-bottom: 15px;
+    
+}
+   
+h4{
+    font-size:180%;
+    font-weight: 250;
+    word-spacing: 1.5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h5{
+    font-size:140%;
+    font-weight: 250;
+    word-spacing: 1.5px;
+    margin-bottom: 11px;
+}
+h6{
+   
+    font-size:120%;
+    font-weight: 300;
+    word-spacing: 1.5px;
+    margin-bottom: 11px;
+ 
+}
+
+.lead{
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 145%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.lead2{
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 125%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    width: 60%;
+    margin-left: 20%;
+}
+.role{
+    margin-bottom: 20px;
+    color: #fff;
+}
+/* -------------------------------------*/
+/* Paragraph */
+/* -------------------------------------*/
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    font-size: 85%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.qstn{
+    margin-bottom: 70px;
+}
+.field{
+    margin-left: 10px;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+.form-group label
+{
+    display: inline-block;
+    font-size:100%;
+    margin-left:10px;
+    width:50%;
+}
+
+*{
+
+    font-size: 100%;
+}
+img.prof-pic{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.about-me{
+    background-color: #d6d3d3;
+    color: #5f5c5c;
+}
+
+.skills{
+    background-image:linear-gradient(rgba(145, 212, 148, 0.8), rgba(145, 60, 212, 0.8)), url(img/skills-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    
+}
+.details{
+    text-transform: uppercase;
+    color: red;
+    margin-top: 8px;
+}
+.required{
+    display:inline;
+    font-size: 170%;
+    color: red;
+}
+ul li{
+   list-style:none;
+   padding: 5px;
+   
+}
+input[type=text]{
+    width: 50%;
+    margin-bottom: 35px;
+    padding: 8px 20px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+}
+textarea{
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgba(153, 153, 153, 0.49);
+    margin-top: 5px;
+    outline: none;
+    border: none;  
+}
+input[type=submit]{
+
+    margin-left: 55%;
+    outline: none;
+    border: none;
+    line-height: 145%;
+    text-transform: uppercase;
+    background-color: #3498db;
+    color: white;
+    font-size: 120%;
+}
+
+
+/*----------------------*/
+/*  ICONS    */
+/*----------------------*/
+.icons{
+    font-size: 350%;
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    
+}
+/* -------------------------------------*/
+/* BUTTONS */
+/* -------------------------------------*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.need-web:link,
+.need-web:visited{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    
+}
+.hire-me:link,
+.hire-me:visited{
+    border: 1px solid #175781;
+}
+
+.btn:hover,
+.btn:active{
+ background-color: #175781;
+
+}
+.need-web:hover,
+.need-web:active{
+    border: 1px solid #3498db;
+}
